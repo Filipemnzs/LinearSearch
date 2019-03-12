@@ -1,0 +1,18 @@
+
+
+
+//this method looks for the desired number in an array
+//returns 1 if number is found, -1 if not
+
+public static int linearSearch(int arr[], int x){
+
+int l = arr.length;
+
+for(int i = 0; i < l; i++){
+
+  if(arr[i] == x)
+    return 1;
+}
+
+return -1;
+}
